@@ -25,7 +25,8 @@ btn.onclick = function() {
 
         /* Next page */
         window.location.href = "dashboard.html";
-    }
+    } else {
 
-    btn.textContent = "Login Failed. Retry ?"
+        btn.textContent = "Login Failed. Retry ?"
+    }
 }
