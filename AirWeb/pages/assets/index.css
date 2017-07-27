@@ -99,5 +99,13 @@ h1, h3, h4, h5, p {
     background: #fff;
     min-width: 960px;
     padding: 66px 0 44px 0;
+
+.aln {
+    width: 500px;
+    clear: both;
+}
+.aln input {
+    width: 100%;
+    clear: both;
 }
 

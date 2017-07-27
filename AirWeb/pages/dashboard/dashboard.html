@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="assets\index.css">
+    <link rel="stylesheet" href="..\assets\index.css">
     <meta charset="UTF-8">
     <title>DashBoard</title>
 </head>
@@ -12,11 +12,163 @@
     <h1 class="banner" > HStat </h1>
 </header>
 
+<hr />
+<hr />
+<section >
+    <div id="map" style="width:600px;height:500px;background:yellow;float:right" ></div>
+    <script src="../../scripts/mapdisp.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+</section>
 <section id="graphs">
     <ul>
         <li> Average House Price</li>
+            <!-- This data should come from a db -->
+            <table border="2" bgcolor="#f0fff0">
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">2016</th>
+                    <th scope="col">2017</th>
+                </tr>
+                <tr>
+                    <th scope="row">Australia</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">New South Wales</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Queensland</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Victoria</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">South Australia</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">West Australia</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Northern Territories</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Tasmania</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+            </table>
         <li> Median House Price</li>
+            <table border="2" bgcolor="#d3d3d3">
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">2016</th>
+                    <th scope="col">2017</th>
+                </tr>
+                <tr>
+                    <th scope="row">Australia</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">New South Wales</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Queensland</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Victoria</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">South Australia</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">West Australia</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Northern Territories</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Tasmania</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+            </table>
+
         <li> Star Performers</li>
+            <table border="2" bgcolor="#f0fff0">
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">2016</th>
+                    <th scope="col">2017</th>
+                </tr>
+                <tr>
+                    <th scope="row">Australia</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">New South Wales</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Queensland</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Victoria</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">South Australia</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">West Australia</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Northern Territories</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Tasmania</th>
+                    <td>100</td>
+                    <td>200</td>
+                </tr>
+            </table>
+
     </ul>
 
 </section>

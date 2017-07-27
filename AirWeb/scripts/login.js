@@ -24,7 +24,7 @@ btn.onclick = function() {
         statusCode = "login succeded"
 
         /* Next page */
-        window.location.href = "dashboard.html";
+        window.location.href = "dashboard/dashboard.html";
     } else {
 
         btn.textContent = "Login Failed. Retry ?"

@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="assets\index.css">
     <meta charset="UTF-8">
-    <title>MovieBuy</title>
+    <title>HStat</title>
 </head>
 <body>
 
@@ -17,15 +17,17 @@
 
     <section class="container">
     <h4>Login </h4>
-        <input class="newline" type="text" name="username">
-        <input class="newline" type="password" name="password">
+        <form action="http://www.example.com/login/"
+              method="post">
+        <input class="newline" type="text" name="username" required="required">
+        <input class="newline" type="password" name="password" required="required">
         <button>Login</button>
 
         <p id="login-status"> Status </p>
         <script src="../scripts/login.js" text="text/javascript">
 
         </script>
-
+        </form>
         <!-- Login box goes here -->
 
     </section >

@@ -12,13 +12,77 @@
     <h1 class="banner" > HStat </h1>
 </header>
 
-
+<div class="aln">
 <section>
     <section class="container">
         <h4> Login Information</h4>
     </section>
+
     <section class="container">
         <h4> Personal Information</h4>
+        <form action="underconstruction.html" method="post">
+            <p>Please submit this form.
+            </p>
+            <p>Username:
+                <input type="text" name="username" size="15" required="required"
+                       maxlength="30" />
+            </p>
+            <p>Password:
+                <input type="password" name="password" size="15" required="required"
+                       maxlength="30" />
+            </p>
+            <p>Re-type Password:
+                <input type="password" name="confirm_password" size="15" required="required"
+                       maxlength="30" />
+            </p>
+            <p>E-Mail:
+                <input type="email" name="email" size="15"
+                       maxlength="100" />
+            </p>
+            <p>Why do you want to use this site?</p>
+            <textarea name="comments" cols="40" rows="4">Enter
+your comments...</textarea>
+            <p>Please select your preferred package:
+                <br />
+                <input type="radio" name="sub" value="free"
+                       checked="checked" /> Free
+                <input type="radio" name="sub" value="premium" />
+                Premium
+                <input type="radio" name="sub" value="ultimate" />
+                Ultimate
+            </p>
+            <p>Which state are you from?</p>
+            <select name="state">
+                <option value="NSW">NSW</option>
+                <option value="Victoria">Victoria</option>
+                <option value="Queensland">Queensland</option>
+                <option value="Northern Territory">Northern Territory</option>
+                <option value="South Australia">South Australia</option>
+                <option value="Tasmania">Tasmania</option>
+                <option value="Western Australia">Western Australia</option>
+                <option value="ACT">ACT</option>
+            </select>
+            <p>Which City ?</p>
+            <select name="City" size="3"
+                    multiple="multiple">
+                <option value="Sydney" selected="selected">
+                    Sydney</option>
+                <option value="Melbourne">Melbourne</option>
+                <option value="Brisbane"
+                        selected="selected">Brisbane</option>
+                <option value="Hobart">Hobart</option>
+            </select>
+            <p>Upload your licence(pdf):</p>
+            <input type="file" name="user-lic" /><b
+            <input type="submit" value="Upload" />
+            <p>
+                <br />
+                <input type="checkbox" name="service"
+                       value="itunes" checked="checked" /> Subscribe to our newsletter ?
+            </p>
+            <input type="submit" name="submit"
+                   value="Submit" />
+        </form>
     </section>
     <section class="container">
         <h4>Disclaimer</h4>
@@ -29,6 +93,7 @@
     </section>
 
 </section>
+</div>
 
 <nav class="container">
     <a class="newline" href="index.html">Home</a>
